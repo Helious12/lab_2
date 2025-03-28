@@ -260,3 +260,22 @@
 2025/03/28 09:39:24 [notice] 1#1: built by gcc 14.2.0 (Alpine 14.2.0) 
 2025/03/28 09:39:24 [notice] 1#1: OS: Linux 5.15.90.1-microsoft-standard-WSL2
 2025/03/28 09:39:24 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2025/03/28 09:39:24 [notice] 1#1: start worker processes
+2025/03/28 09:39:24 [notice] 1#1: start worker process 29
+2025/03/28 09:39:24 [notice] 1#1: start worker process 30
+2025/03/28 09:39:24 [notice] 1#1: start worker process 31
+2025/03/28 09:39:24 [notice] 1#1: start worker process 32
+2025/03/28 09:39:24 [notice] 1#1: start worker process 33
+2025/03/28 09:39:24 [notice] 1#1: start worker process 34
+2025/03/28 09:39:24 [notice] 1#1: start worker process 35
+2025/03/28 09:39:24 [notice] 1#1: start worker process 36
+2025/03/28 09:39:24 [notice] 1#1: start worker process 37
+2025/03/28 09:39:24 [notice] 1#1: start worker process 38
+2025/03/28 09:39:24 [notice] 1#1: start worker process 39
+2025/03/28 09:39:24 [notice] 1#1: start worker process 40
+2025/03/28 09:39:24 [notice] 1#1: start cache manager process 41
+2025/03/28 09:39:24 [notice] 1#1: start cache loader process 42
+2025/03/28 09:40:24 [notice] 42#42: http file cache: /var/cache/nginx 0.000M, bsize: 4096
+2025/03/28 09:40:24 [notice] 1#1: signal 17 (SIGCHLD) received from 42
+2025/03/28 09:40:24 [notice] 1#1: cache loader process 42 exited with code 0
+2025/03/28 09:40:24 [notice] 1#1: signal 29 (SIGIO) received
