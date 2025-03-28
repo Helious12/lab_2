@@ -1,0 +1,98 @@
+/* Reset CSS (để đảm bảo tính nhất quán giữa các trình duyệt) */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Định nghĩa các biến màu (để dễ dàng thay đổi sau này) */
+:root {
+    --primary-color: #007bff; /* Màu xanh dương chủ đạo */
+    --secondary-color: #6c757d; /* Màu xám thứ cấp */
+    --text-color: #333;
+    --background-color: #f8f9fa;
+    --border-color: #dee2e6;
+}
+
+/* Thiết lập font chữ và màu sắc cơ bản cho toàn trang */
+body {
+    font-family: sans-serif;
+    color: var(--text-color);
+    background-color: var(--background-color);
+    line-height: 1.6;
+}
+
+/* Định kiểu cho header */
+header {
+    background-color: white;
+    padding: 1rem;
+    text-align: center;
+    border-bottom: 1px solid var(--border-color);
+}
+
+header h1 {
+    color: var(--primary-color);
+    margin-bottom: 0.5rem;
+}
+
+/* Định kiểu cho main */
+main {
+    padding: 1rem;
+}
+
+section {
+    margin-bottom: 2rem;
+    background-color: white;
+    padding: 1rem;
+    border: 1px solid var(--border-color);
+    border-radius: 5px;
+}
+
+section h2 {
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+    border-bottom: 1px solid var(--border-color);
+    padding-bottom: 0.5rem;
+}
+
+/* Định kiểu cho ảnh */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 1rem auto;
+}
+
+/* Định kiểu cho nút bấm */
+button {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3; /* Màu đậm hơn khi hover */
+}
+
+/* Định kiểu cho footer */
+footer {
+    background-color: white;
+    padding: 1rem;
+    text-align: center;
+    border-top: 1px solid var(--border-color);
+    font-size: 0.8rem;
+    color: var(--secondary-color);
+}
+
+/* Định kiểu cho phần tử chứa dữ liệu động */
+#data-container {
+    margin-top: 1rem;
+    padding: 1rem;
+    background-color: #f0f0f0;
+    border: 1px solid var(--border-color);
+    border-radius: 5px;
+    font-family: monospace; /* Sử dụng font chữ monospace cho dữ liệu */
+}
